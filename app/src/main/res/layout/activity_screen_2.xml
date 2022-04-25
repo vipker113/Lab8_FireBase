@@ -41,7 +41,7 @@
         app:srcCompat="@drawable/iconsad" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edt_name"
         android:layout_width="0dp"
         android:layout_height="66dp"
         android:layout_marginStart="64dp"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edt_password"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginStart="64dp"
@@ -72,10 +72,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_name" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_login"
         android:layout_width="250dp"
         android:layout_height="63dp"
         android:layout_marginTop="20dp"
@@ -85,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_password" />
 
     <TextView
         android:id="@+id/textView"
@@ -99,7 +99,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -109,7 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/Ellipse1" />
+        app:srcCompat="@drawable/ellipse1" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -124,7 +124,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/Group6" />
+        app:srcCompat="@drawable/group6" />
 
     <TextView
         android:id="@+id/textView2"
